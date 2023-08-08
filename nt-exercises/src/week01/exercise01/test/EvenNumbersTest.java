@@ -6,6 +6,7 @@ public class EvenNumbersTest {
     public static void main(String[] args) {
         EvenNumbers evenNumbers = new EvenNumbers();
 
-        evenNumbers.print();
+        int numbers = 100;
+        evenNumbers.print(numbers);
     }
 }

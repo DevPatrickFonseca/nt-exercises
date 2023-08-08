@@ -11,9 +11,7 @@ public class EvenNumbers {
         this.numbers = numbers;
     }
 
-    public void print() {
-        numbers = 100;
-
+    public void print(int numbers) {
         for (int i = 0; i <= numbers; i++) {
             if (i % 2 == 0) {
                 System.out.println(i + " ");
@@ -21,7 +19,7 @@ public class EvenNumbers {
         }
 
         System.out.println("|-------------------------------------------|");
-        System.out.println("| Estes são os números pares entre 0 e 100. |");
+        System.out.println("| Estes são os números pares entre 0 e " + numbers + ". |");
         System.out.println("|-------------------------------------------|");
     }
 }
