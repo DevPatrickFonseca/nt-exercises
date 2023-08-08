@@ -29,8 +29,8 @@ public class PrimeNumbers {
         this.divideNumbers = divideNumbers;
     }
 
-    public void print() {
-        for (countNumbers = 2; countNumbers < 1000; countNumbers++) {
+    public void print(int number) {
+        for (countNumbers = 2; countNumbers < number; countNumbers++) {
             isPrime = 0;
             for (divideNumbers = 2; divideNumbers < countNumbers; divideNumbers++) {
                 if (countNumbers % divideNumbers == 0) {
