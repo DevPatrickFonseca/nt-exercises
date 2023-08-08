@@ -42,7 +42,7 @@ public class PrimeNumbers {
             }
         }
         System.out.println("|---------------------------------------------|");
-        System.out.println("| Estes são os números Primos entre 0 e 1000. |");
+        System.out.println("| Estes são os números Primos entre 0 e " + number + ". |");
         System.out.println("|---------------------------------------------|");
     }
 }
