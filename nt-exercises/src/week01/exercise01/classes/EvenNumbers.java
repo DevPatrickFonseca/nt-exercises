@@ -3,14 +3,6 @@ package week01.exercise01.classes;
 public class EvenNumbers {
     private int numbers;
 
-    public int getNumbers() {
-        return numbers;
-    }
-
-    public void setNumbers(int numbers) {
-        this.numbers = numbers;
-    }
-
     public void print(int numbers) {
         for (int i = 0; i <= numbers; i++) {
             if (i % 2 == 0) {
