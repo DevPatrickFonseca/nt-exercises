@@ -5,30 +5,6 @@ public class PrimeNumbers {
     private int isPrime;
     private int divideNumbers;
 
-    public int getCountNumbers() {
-        return countNumbers;
-    }
-
-    public void setCountNumbers(int countNumbers) {
-        this.countNumbers = countNumbers;
-    }
-
-    public int getIsPrime() {
-        return isPrime;
-    }
-
-    public void setIsPrime(int isPrime) {
-        this.isPrime = isPrime;
-    }
-
-    public int getDivideNumbers() {
-        return divideNumbers;
-    }
-
-    public void setDivideNumbers(int divideNumbers) {
-        this.divideNumbers = divideNumbers;
-    }
-
     public void print(int number) {
         for (countNumbers = 2; countNumbers < number; countNumbers++) {
             isPrime = 0;
