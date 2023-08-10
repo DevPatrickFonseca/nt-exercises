@@ -8,14 +8,6 @@ public class IdentityMatrix {
 
     private int[][] matrix;
 
-    public int getNumber() {
-        return number;
-    }
-
-    public void setNumber(int number) {
-        this.number = number;
-    }
-
     public int[][] createMatrix(int number) {
         int[][] matrix = new int[rows = number][columns = number];
 
