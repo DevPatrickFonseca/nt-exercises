@@ -8,32 +8,14 @@ public class PaymentChange {
     private double payment;
     private double change;
 
-    public double getCost() {
-        return cost;
-    }
-
-    public void setCost(double cost) {
-        this.cost = cost;
-    }
-
-    public double getPayment() {
-        return payment;
-    }
-
-    public void setPayment(double payment) {
-        this.payment = payment;
-    }
-
     public void displayChange(double cost, double payment) {
         double change = payment - cost;
-
-        DecimalFormat decimalFormat = new DecimalFormat("#.##");
 
         System.out.println("------------------------");
         if (change < 0) {
             System.out.println("Valor insuficiente. São necessários: R$ " + change);
         } else {
-            System.out.println("Valor do Troco: R$ " + decimalFormat.format(Math.abs(change)));
+            System.out.println("Valor do Troco: R$ " + String.format("%.2f", (Math.abs(change))));
             String[] cashAndCoins = getCashAndCoins(change);
             printChange(cashAndCoins);
         }
@@ -50,7 +32,7 @@ public class PaymentChange {
             change -= amount * cash[i];
 
             if (amount > 0) {
-                stringBuilder.append(amount).append(" nota(s): ").append(cash[i]).append("\n");
+                stringBuilder.append(amount).append(" nota(s): R$ ").append(cash[i]).append("\n");
             }
         }
 
@@ -59,7 +41,7 @@ public class PaymentChange {
             change -= amount * coin[i];
 
             if (amount > 0) {
-                stringBuilder.append(amount).append(" moeda(s): ").append(coin[i]).append("\n");
+                stringBuilder.append(amount).append(" moeda(s): R$ ").append(coin[i]).append("\n");
             }
         }
         return stringBuilder.toString().split("\n");

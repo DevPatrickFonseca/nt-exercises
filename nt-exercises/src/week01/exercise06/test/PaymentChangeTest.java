@@ -2,8 +2,6 @@ package week01.exercise06.test;
 
 import week01.exercise06.classes.PaymentChange;
 
-import java.math.BigDecimal;
-
 public class PaymentChangeTest {
     public static void main(String[] args) {
         PaymentChange paymentChange = new PaymentChange();
