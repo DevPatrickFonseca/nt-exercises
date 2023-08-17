@@ -24,7 +24,7 @@
 
 ---
 
-## 🎯 Exercises - Week 02
+## 🎯 [Exercises - Week 02](https://github.com/PFonsecaFV/nt-exercises/pull/2)
 
 ---
 
