@@ -1,38 +1,17 @@
 <div align="center">
   
-  # 🚀 FORMA NT - EXERCISES 🚀
+  # 🚀 FORMA NT 🚀
 
-  ### Hello all good! I'm Patrick Fonseca 🤓
+  ## Hello all good! I'm Patrick Fonseca 🤓
   
 </div>
 
-##
+# 🎯 Exercises - Week 02
 
-<div align="center">
-  <h3>Languages, technologies and tools I'm using in this repo:</h3>
-  <p align="center">
-    <a href="https://github.com/PFonsecaFV/PFonsecaFV">
-      <img src="https://github.com/PFonsecaFV/PFonsecaFV/blob/main/src/icons/ic_java.svg" width="60" fill="none" />
-      <img src="https://github.com/PFonsecaFV/PFonsecaFV/blob/main/src/icons/ic_intellij.svg" width="60" fill="none" />
-    </a>
-  </p>
-</div>
-  
----
-
-## 🎯 [Exercises - Week 01](https://github.com/PFonsecaFV/nt-exercises/tree/exercises-week-01)
-
----
-
-## 🎯 Exercises - Week 02
-
----
-
-## 🎯 Exercises - Week 03
-
----
-
-## 🎯 Exercises - Week 04
+- [x] 1 - Implemente um método que receba um número e imprima o resultado do fatorial deste número.
+- [x] 2 - Implemente a `Cifra de César` para criptografar e descriptografar uma mensagem.
+- [x] 3 - Implemente a `Cifra de Vigenère` para criptografar e descriptografar uma mensagem.
+- [x] 4 - Crie uma interface chamada usuário e crie 3 classes de usuários `BASIC`, `STANDARD` e `PREMIUM`.
 
 ---
 
