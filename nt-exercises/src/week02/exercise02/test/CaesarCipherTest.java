@@ -1,13 +1,13 @@
 package week02.exercise02.test;
 
-import week02.exercise02.classes.CesarCipher;
+import week02.exercise02.classes.CaesarCipher;
 
-public class CesarCipherTest {
+public class CaesarCipherTest {
     public static void main(String[] args) {
-        CesarCipher cesarCipher = new CesarCipher();
+        CaesarCipher caesarCipher = new CaesarCipher();
         // Exemplo: Java é uma linguagem incrível
         // Deslocamento: 10
 
-        cesarCipher.display();
+        caesarCipher.display();
     }
 }
