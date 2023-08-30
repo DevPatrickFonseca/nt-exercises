@@ -1,14 +1,11 @@
 package week01.exercise03.classes;
 
 public class Palindrome {
-    private String word;
-
     public boolean isPalindrome(String word) {
-        String wordReverse = "";
-        for (int charIndex = (word.length() - 1); charIndex >= 0; charIndex--) {
-            wordReverse = wordReverse + word.charAt(charIndex);
-        }
-        return word.equalsIgnoreCase(wordReverse);
+        String wordFormat = word.replace(" ", "").toLowerCase();
+        StringBuilder wordReverse = new StringBuilder(wordFormat).reverse();
+
+        return wordFormat.equals(wordReverse.toString());
     }
 
     public void print(String word) {
