@@ -1,8 +1,6 @@
-package week02.exercise03.test;
+package week02.exercise03;
 
-import week02.exercise03.classes.VigenereCipher;
-
-public class VigenereCipherTest {
+public class Main {
     public static void main(String[] args) {
         VigenereCipher vigenereCipher = new VigenereCipher();
         // Exemplo: JAVAÉINCRÍVEL

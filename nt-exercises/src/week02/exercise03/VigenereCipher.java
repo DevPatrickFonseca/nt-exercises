@@ -1,7 +1,6 @@
-package week02.exercise03.classes;
+package week02.exercise03;
 
-import week02.exercise03.utils.DecoderVigenere;
-import week02.exercise03.utils.EncoderVigenere;
+import week02.exercise03.utils.EncoderDecoderVigenere;
 
 import java.util.Scanner;
 
@@ -22,9 +21,9 @@ public class VigenereCipher {
 
         String result = "";
         if (option == 1) {
-            result = EncoderVigenere.encrypt(messageOrWord, keyword);
+            result = EncoderDecoderVigenere.encrypt(messageOrWord, keyword);
         } else if (option == 2) {
-            result = DecoderVigenere.decrypt(messageOrWord, keyword);
+            result = EncoderDecoderVigenere.decrypt(messageOrWord, keyword);
         } else {
             System.out.println("--------------------------------------");
             System.out.println(" Escolha uma opção válida entre 1 e 2 \n E tente novamente...");
