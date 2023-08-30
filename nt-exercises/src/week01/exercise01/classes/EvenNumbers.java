@@ -1,14 +1,14 @@
 package week01.exercise01.classes;
 
 public class EvenNumbers {
-    private int numbers;
-
     public void print(int numbers) {
+        StringBuilder number = new StringBuilder();
         for (int i = 0; i <= numbers; i++) {
             if (i % 2 == 0) {
-                System.out.println(i + " ");
+                number.append(i + " ");
             }
         }
+        System.out.println(number);
 
         System.out.println("|-------------------------------------------|");
         System.out.println("| Estes são os números pares entre 0 e " + numbers + ". |");
