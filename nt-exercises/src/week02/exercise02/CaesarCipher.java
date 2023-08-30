@@ -1,4 +1,4 @@
-package week02.exercise02.classes;
+package week02.exercise02;
 
 import week02.exercise02.utils.EncoderDecoder;
 
