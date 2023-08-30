@@ -1,8 +1,6 @@
-package week01.exercise01.test;
+package week01.exercise01;
 
-import week01.exercise01.classes.EvenNumbers;
-
-public class EvenNumbersTest {
+public class Main {
     public static void main(String[] args) {
         EvenNumbers evenNumbers = new EvenNumbers();
 

@@ -1,4 +1,4 @@
-package week01.exercise03.classes;
+package week01.exercise03;
 
 public class Palindrome {
     public boolean isPalindrome(String word) {

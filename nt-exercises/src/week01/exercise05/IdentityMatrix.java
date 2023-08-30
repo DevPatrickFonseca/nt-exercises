@@ -1,4 +1,4 @@
-package week01.exercise05.classes;
+package week01.exercise05;
 
 public class IdentityMatrix {
 

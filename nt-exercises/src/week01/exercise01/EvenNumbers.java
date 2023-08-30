@@ -1,4 +1,4 @@
-package week01.exercise01.classes;
+package week01.exercise01;
 
 public class EvenNumbers {
     public void print(int numbers) {

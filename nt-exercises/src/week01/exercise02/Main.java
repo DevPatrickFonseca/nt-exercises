@@ -1,8 +1,6 @@
-package week01.exercise02.test;
+package week01.exercise02;
 
-import week01.exercise02.classes.PrimeNumbers;
-
-public class PrimeNumbersTest {
+public class Main {
     public static void main(String[] args) {
         PrimeNumbers primeNumbers = new PrimeNumbers();
 

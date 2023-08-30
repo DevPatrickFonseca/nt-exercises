@@ -1,12 +1,10 @@
-package week01.exercise05.test;
+package week01.exercise05;
 
-import week01.exercise05.classes.IdentityMatrix;
-
-public class IdentityMatrixTest {
+public class Main {
     public static void main(String[] args) {
         IdentityMatrix identityMatrix = new IdentityMatrix();
 
-        int number = 3;
+        int number = 8;
         identityMatrix.printMatrix(number);
     }
 }

@@ -1,4 +1,4 @@
-package week01.exercise06.classes;
+package week01.exercise06;
 
 import java.text.DecimalFormat;
 
@@ -32,7 +32,7 @@ public class PaymentChange {
             change -= amount * cash[i];
 
             if (amount > 0) {
-                stringBuilder.append(amount).append(" nota(s): R$ ").append(cash[i]).append("\n");
+                stringBuilder.append(amount).append(" nota(s): R$ ").append(String.format("%.2f", (cash[i]))).append("\n");
             }
         }
 
@@ -41,7 +41,7 @@ public class PaymentChange {
             change -= amount * coin[i];
 
             if (amount > 0) {
-                stringBuilder.append(amount).append(" moeda(s): R$ ").append(coin[i]).append("\n");
+                stringBuilder.append(amount).append(" moeda(s): R$ ").append(String.format("%.2f", (coin[i]))).append("\n");
             }
         }
         return stringBuilder.toString().split("\n");

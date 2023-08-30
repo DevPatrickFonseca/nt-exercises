@@ -1,4 +1,4 @@
-package week01.exercise02.classes;
+package week01.exercise02;
 
 public class PrimeNumbers {
     private int countNumbers;
