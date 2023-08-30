@@ -1,4 +1,4 @@
-package week02.exercise01.classes;
+package week02.exercise01;
 
 public class FactorialCalculator {
     private double number;

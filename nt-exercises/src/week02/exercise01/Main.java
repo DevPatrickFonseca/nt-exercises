@@ -1,8 +1,6 @@
-package week02.exercise01.test;
+package week02.exercise01;
 
-import week02.exercise01.classes.FactorialCalculator;
-
-public class FactorialCalculatorTest {
+public class Main {
     public static void main(String[] args) {
         FactorialCalculator factorialCalculator = new FactorialCalculator();
         double number = 8;
