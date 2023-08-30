@@ -6,13 +6,11 @@ public class IdentityMatrix {
     private int rows = number;
     private int columns = number;
 
-    private int[][] matrix;
-
     public int[][] createMatrix(int number) {
         int[][] matrix = new int[rows = number][columns = number];
 
         for (int i = 0; i < number; i++) {
-            matrix[i][i] = number;
+            matrix[i][i] = 1;
         }
         return matrix;
     }
