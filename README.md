@@ -15,8 +15,6 @@
 - [x] 5 - Crie um método que receba um número `inteiro` e gere uma `matriz` identidade a partir deste número
 - [x] 6 - Crie um método que receba o `custo` e o `pagamento`, ele deve imprimir no console as seguintes informações: Valor do troco e Troco em menor quantidade de notas e moedas possíveis
 
----
-
 <div align="center">
   <h2>Patrick Fonseca</h2>
 	  <a href="https://www.linkedin.com/in/PatrickFonseca/" target="_blank">
