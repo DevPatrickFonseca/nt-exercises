@@ -13,13 +13,13 @@ public class DisplayTotals {
 
         System.out.println("-----------------------------------");
         System.out.println("Tipo de Usuário:     ( " + user.getUserType() + " )");
-        System.out.println("\nValor Produto:       + R$ " + productValue);
-        System.out.println("Desconto Produto:    - R$ " + discountValue);
-        System.out.println("Valor Total Produto: + R$ " + subtotalProduct);
-        System.out.println("\nValor Frete:         + R$ " + shippingCost);
-        System.out.println("Desconto Frete:      - R$ " + discountShipping);
-        System.out.println("Valor Total Frete:   + R$ " + subtotalShipping);
-        System.out.println("\n======> Valor FINAL:   R$ " + totalFinal);
+        System.out.println("\nValor Produto:       + R$ " + String.format("%.2f", (productValue)));
+        System.out.println("Desconto Produto:    - R$ " + String.format("%.2f", (discountValue)));
+        System.out.println("Valor Total Produto: + R$ " + String.format("%.2f", (subtotalProduct)));
+        System.out.println("\nValor Frete:         + R$ " + String.format("%.2f", (shippingCost)));
+        System.out.println("Desconto Frete:      - R$ " + String.format("%.2f", (discountShipping)));
+        System.out.println("Valor Total Frete:   + R$ " + String.format("%.2f", (subtotalShipping)));
+        System.out.println("\n======> Valor FINAL:   R$ " + String.format("%.2f", (totalFinal)));
         System.out.println("-----------------------------------");
     }
 }
