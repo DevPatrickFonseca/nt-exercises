@@ -2,7 +2,9 @@
 
 # 🚀 FORMA NT 🚀
 
-## Sistema de Vendas de Ingressos via Terminal (🎥 Cine Tickets)
+## Sistema de Vendas de Ingressos via Terminal (
+
+# 🎥 Cine Tickets
 
 ---
 
@@ -12,7 +14,7 @@
 
 # 🎯 Exercises - Week 03
 
-- [ ] 1 - Sistema utilizando Scanner para endrada e saída de dados
+- [ ] 1 - Sistema utilizando Scanner para entrada e saída de dados
 - [ ] 2 - Cadastro de Clientes
 - [ ] 3 - Cadastro de Funcionários
 - [ ] 4 - Cadastro de Filmes e CRUD para atualização de dados
