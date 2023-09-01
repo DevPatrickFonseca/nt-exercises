@@ -24,15 +24,12 @@
 
 ---
 
-## 🎯 [Exercises - Week 02](https://github.com/PFonsecaFV/nt-exercises/pull/2)
+## 🎯 [Exercises - Week 02](https://github.com/PFonsecaFV/nt-exercises/tree/exercises-week-02)
 
 ---
 
-## 🎯 Exercises - Week 03
+## 🎯 [Exercises - Week 03](https://github.com/PFonsecaFV/nt-exercises/tree/exercises-week-03)
 
----
-
-## 🎯 Exercises - Week 04
 
 ---
 
