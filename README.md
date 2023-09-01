@@ -2,7 +2,7 @@
 
 # 🚀 FORMA NT 🚀
 
-## Sistema de Vendas de Ingressos via Terminal (
+## Sistema de Vendas de Ingressos via Terminal
 
 # 🎥 Cine Tickets
 
