@@ -1,37 +1,20 @@
 <div align="center">
   
-  # 🚀 FORMA NT - EXERCISES 🚀
+  # 🚀 FORMA NT 🚀
 
-  ### Hello all good! I'm Patrick Fonseca 🤓
+  ## Hello all good! I'm Patrick Fonseca 🤓
   
 </div>
 
-##
+# 🎯 Exercises - Week 01
 
-<div align="center">
-  <h3>Languages, technologies and tools I'm using in this repo:</h3>
-  <p align="center">
-    <a href="https://github.com/PFonsecaFV/PFonsecaFV">
-      <img src="https://github.com/PFonsecaFV/PFonsecaFV/blob/main/src/icons/ic_java.svg" width="60" fill="none" />
-      <img src="https://github.com/PFonsecaFV/PFonsecaFV/blob/main/src/icons/ic_intellij.svg" width="60" fill="none" />
-    </a>
-  </p>
-</div>
-  
----
+- [x] 1 - Imprima todos os números pares de `0` a `100`
+- [x] 2 - Imprima todos os números primos de `0` a `1000`
+- [x] 3 - Crie um método que receba como parâmetro um texto do tipo `String` e retorne se este texto é `palíndromo`.
+- [x] 4 - Monte a estrutura de classes, instancie 2 Motoristas e imprima no console `{ nome, cargo, placaCarro }` de cada motorista
+- [x] 5 - Crie um método que receba um número `inteiro` e gere uma `matriz` identidade a partir deste número
+- [x] 6 - Crie um método que receba o `custo` e o `pagamento`, ele deve imprimir no console as seguintes informações: Valor do troco e Troco em menor quantidade de notas e moedas possíveis
 
-## 🎯 [Exercises - Week 01](https://github.com/PFonsecaFV/nt-exercises/tree/exercises-week-01)
-
----
-
-## 🎯 [Exercises - Week 02](https://github.com/PFonsecaFV/nt-exercises/tree/exercises-week-02)
-
----
-
-## 🎯 [Exercises - Week 03](https://github.com/PFonsecaFV/nt-exercises/tree/exercises-week-03)
-
-
----
 
 <div align="center">
   <h2>Patrick Fonseca</h2>
